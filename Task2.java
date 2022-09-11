@@ -1,4 +1,3 @@
-//import java.io.*;
 public class Task2 {
 	public void sort(int arr[])
 	{
@@ -28,7 +27,6 @@ public class Task2 {
 			heapify(arr, N, largest);
 		}
 	}
-
 	static void printArray(int arr[])
 	{
 		int N = arr.length;
@@ -36,10 +34,9 @@ public class Task2 {
 			System.out.print(arr[i] + " ");
 		System.out.println();
 	}
-
 	public static void main(String args[])
 	{
-		int arr[] = { 12, 11, 13, 5, 6, 7 };
+		int arr[] = { 12, 11, 13, 5, 6, 7, 1, 28 }; // Введите сюда массив для сортировки
 		int N = arr.length;
 		Task2 ob = new Task2();
 		ob.sort(arr);

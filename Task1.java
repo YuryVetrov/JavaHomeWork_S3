@@ -1,7 +1,3 @@
-import java.io.*;
-import java.math.*;
-import java.util.*;
-
 public class Task1 {
 class GFG {
     static void towerOfHanoi(int n, char from_rod,
@@ -16,11 +12,9 @@ class GFG {
                            + to_rod);
         towerOfHanoi(n - 1, aux_rod, to_rod, from_rod);
     }
-
     public static void main(String args[])
     {
         int N = 3;
- 
         // А, В и С — названия стержней
         towerOfHanoi(N, 'A', 'C', 'B');
     }
